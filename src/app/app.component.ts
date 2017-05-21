@@ -19,11 +19,8 @@ const HEROES: Hero[] = [
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'Hello Angular!';
 
-  hero: Hero = {
-    id: 1,
-    name: 'Windstrom'
-  };
+export class AppComponent {
+  title = 'Tour of Heroes';
+  heroes = HEROES;
 }
